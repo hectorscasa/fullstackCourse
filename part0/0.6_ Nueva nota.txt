@@ -1,0 +1,10 @@
+title 0.6: Nueva nota
+
+User->browser: Type new note and click send
+browser-->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: 301 Response: New note successfully created
+
+note over browser:
+browser add this new note to its data var
+and show this new note in the list
+end note
